@@ -1,7 +1,6 @@
 let employee = {
-    code: Number;
-    name: 'string';
+    code: 10,
+    name: '"John"'
 };
 
-employee.code = 10;
-employee.name = "John";
+console.log(employee.code, employee.name)
